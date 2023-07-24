@@ -1,3 +1,59 @@
+# Comandos do Git
+
+Esta página fala sobre alguns comandos do Git.
+
+😁 Você também pode contribuir!
+
+## ⚙️ Configurando o Git
+
+- Configurar seu e-mail
+- `$ git config user.email [seu_email_aqui]`
+- Configurar seu nome de usuário
+- `$ git config user.name [seu_usuario_aqui]`
+
+Se você quiser configurar o escopo de trabalho, use as tags abaixo.
+
+- Escopo local
+  - `$ git config --local user.email [seu_email_aqui]`
+- Escopo global
+  - `$ git config --global user.email [seu_email_aqui]`
+- Escopo do sistema
+  - `$ git config --system user.email [seu_email_aqui]`
+
+## 📚 Comandos Básicos
+
+### Criar um novo repositório
+  - Criar um repositório local
+    - `$ git init`
+  - Clonar um repositório remoto
+    - `$ git clone [url_origem_remota]`
+  - Clonar apenas um ramo (branch) do repositório
+    - `$ git clone -branch [nome_do_branch] [url_origem_remota]`
+  - Clonar para um diretório específico
+    - `$ git clone [url_origem_remota] [nome_do_diretorio]`
+  
+### Criar uma nova conexão com o repositório remoto
+- Listar repositórios remotos
+  - `$ git remote`
+- Criar uma nova conexão com o repositório remoto no servidor
+  - `$ git remote add [nome_remoto] [url_para_repositorio_remoto]`
+- Remover uma conexão com o repositório remoto
+  - `$ git remote rm [nome_remoto]`
+- Renomear uma conexão remota
+  - `$ git remote rename [nome_antigo_remoto] [nome_novo_remoto]`
+
+### Criar um novo commit
+- Incluir arquivos na área de preparação (stage)
+  - `$ git add --all ou -a ou .`
+- Criar um commit com mensagem
+  - `$ git commit -m "sua mensagem aqui"`
+- Combinar tudo em um único commit
+  - `$ git commit -a -m "sua mensagem aqui"`
+- Alterar a mensagem do commit
+  - `$ git commit --amend -m "nova mensagem aqui"`
+
+
+
 # Git's Commands
 
 This page is about some commands from Git. 
