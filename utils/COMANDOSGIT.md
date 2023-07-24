@@ -1,4 +1,4 @@
-# Comandos do Git
+# Comandos do Git (PT/BR)
 
 Esta página fala sobre alguns comandos do Git.
 
@@ -20,7 +20,7 @@ Se você quiser configurar o escopo de trabalho, use as tags abaixo.
 - Escopo do sistema
   - `$ git config --system user.email [seu_email_aqui]`
 
-## 📚 Comandos Básicos
+## 📚 Comandos Básicos 
 
 ### Criar um novo repositório
   - Criar um repositório local
@@ -54,7 +54,7 @@ Se você quiser configurar o escopo de trabalho, use as tags abaixo.
 
 
 
-# Git's Commands
+# Git's Commands (EN/US)
 
 This page is about some commands from Git. 
 
